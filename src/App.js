@@ -10,7 +10,6 @@ function App() {
       <CssBaseline></CssBaseline>
       <GlobalStyle></GlobalStyle>
       <Main></Main>
-      <div>Olá</div>
     </StylesProvider>
   );
 }

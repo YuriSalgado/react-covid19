@@ -12,8 +12,20 @@ function Board({ data }) {
             <Grid item xs={12} md={3}>
                 <Card value={getValue(cases)} label="Total de casos" color="#5d78"></Card>
             </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={getValue(todayDeaths)} label="Óbitos hoje" color="#f78829"></Card>
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={getValue(recovered)} label="Casos hoje" color="#000"></Card>
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={getValue(deaths)} label="Total de mortos" color="#e95078"></Card>
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={getValue(todayCases)} label="Total de recuperados" color="#67c887"></Card>
+            </Grid>
         </Grid>
     )
 }
 
-export default Board
+export default memo(Board)

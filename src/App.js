@@ -10,7 +10,7 @@ function App() {
       <CssBaseline></CssBaseline>
       <GlobalStyle></GlobalStyle>
       <Main></Main>
-      <div>TESTE :D </div>
+      <div>Olá</div>
     </StylesProvider>
   );
 }

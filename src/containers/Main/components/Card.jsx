@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { Card as CardUI } from '../../components'
+import { Card as CardUI } from '../../../components/Card'
 import {
     LabelStyled,
     ValueStyled,
@@ -18,3 +18,5 @@ function Card({ value, label, color }) {
         </CardUI>
     )
 }
+
+export default memo(Card)

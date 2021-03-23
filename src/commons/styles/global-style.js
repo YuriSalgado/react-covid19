@@ -1,8 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import CovidImg from '../../assets/images/covid.jpg'
 
-const globalStyle = createGlobalStyle `
-
+const globalStyle = createGlobalStyle`
     * {
         outline: none;
         box-sizing: border-box;   
@@ -26,6 +25,18 @@ const globalStyle = createGlobalStyle `
         width: 100%;
         background-size: cover;
         background-position: center center;
+    }
+
+    .mb-2 {
+        margin-bottom: 10px;
+    }
+
+    .pt-2 {
+        padding-top: 10px;
+    }
+
+    .cursor {
+        cursor: pointer;
     }
 `
 

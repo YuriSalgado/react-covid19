@@ -19,7 +19,7 @@ function Main() {
         getCovidData(country)
     }, [getCovidData, country])
 
-    const handleChange = ({ target}) => {
+    const handleChange = ({ target }) => {
         const country = target.value
         setCountry(country)
     }

@@ -10,12 +10,14 @@ function Panel({ updateAt, onChange, data, country, getCovidData}) {
     const { cases, recovered, deaths, todayCases, todayDeaths } = data
 
     const renderCountries = (country, index) => {
-        <MenuItem key={`country-${index}`} value={country.value}>
-            <ItemStyled>
-                <div>{country.label}</div>
-                <img src={country.flag} alt={`Pais-${country.label}`} />
-            </ItemStyled>
-        </MenuItem>
+        return (
+            <MenuItem key={`country-${index}`} value={country.value}>
+                <ItemStyled>
+                    <div>{country.label}</div>
+                    <img src={country.flag} alt={`Pais-${country.label}`} width={`30px`}/>
+                </ItemStyled>
+            </MenuItem>
+        )
     }
     
     return (

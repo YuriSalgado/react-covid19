@@ -28,11 +28,11 @@ const globalStyle = createGlobalStyle`
     }
 
     .mb-2 {
-        margin-bottom: 10px;
+        margin-bottom: 16px;
     }
 
     .pt-2 {
-        padding-top: 10px;
+        padding-top: 16px;
     }
 
     .cursor {

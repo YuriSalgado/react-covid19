@@ -1,30 +1,30 @@
-# Getting Started with Create React App
+# react-covid19 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PWA para exibir estatísticas do covid9 por pais, react-starter + workers 💙 
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Use the package manager [npm](https://www.npmjs.com/) and create-react-app to start app.
 
-### `npm start`
+```gitbash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```gitbash
+npm start
+```
+ Open in your browser > http://localhost:3000/ > choose country.. 
 
-### `npm test`
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please make sure to update tests as appropriate.
 
-### `npm run build`
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <img src="https://i.imgur.com/KNmG5MG.png" alt="Preview - pwa - app"/>
+</p>
